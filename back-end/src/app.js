@@ -6,11 +6,9 @@ const cors = require('cors')
 app.use(cors());
 app.use(express.json());
 
-<<<<<<< HEAD
 const cors = require('cors');
 app.use(cors());
-=======
->>>>>>> 40c34d3 (finalizando projeto)
+
 
 //usuarios
 const usuariosRoutes = require('./routes/usuarios.routes');
