@@ -19,7 +19,9 @@ function LoginForms(){
 
             <button onClick={() => navigate('/home')} className=" bg-black text-red-500 px-10 py-3 rounded-full mt-4 cursor-pointer">Logar</button>
 
-            <button type="button" onClick={() => navigate('/cadastro')} className="text-white hover:text-red-500 cursor-pointer">Não possui uma conta? Cadastre-se</button>
+            <span>Não possui uma conta? <button type="button" onClick={() => navigate('/cadastro')} className="text-white hover:text-red-500 cursor-pointer"> Cadastre-se</button></span>
+
+           
             
             </form>
             </div>
