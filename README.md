@@ -84,7 +84,7 @@ cd front-end
 npm install
 ```
 
-5. Rodar o Servidor Back-end:
+7. Rodar o Servidor Back-end:
 
 ```
 cd .. 
@@ -92,14 +92,14 @@ cd back-end
 npm run dev
 ```
 
-6. Abrir outro terminal e rodar o Front-End:
+8. Abrir outro terminal e rodar o Front-End:
 
 ```
 cd front-end
 npm run dev
 ```
 
-7. Acessar a porta disponibilizada no front-end:
+9. Acessar a porta disponibilizada no front-end:
 
 Provavelmente:
 ```
