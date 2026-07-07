@@ -14,7 +14,7 @@ function CadastroForms() {
 
         try {
             const resposta = await fetch(
-                'http://localhost:3000/api/usuarios',
+                `${import.meta.env.VITE_API_URL}/api/usuarios`,
                 {
                     method: 'POST',
                     headers: {
